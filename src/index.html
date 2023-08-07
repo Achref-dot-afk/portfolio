@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo"><span class="A">A</span>chref <span class="H">H</span>abli</a>
+        <ul class="heading">
+            <li><a href="#home" id="active">Home</a></li>
+            <li><a href="#about" class="hover">About</a></li>
+            <li><a href="#skills" class="hover">Skills</a></li>
+            <li><a href="#projects" class="hover">Projects</a></li>
+            <li><a href="#contact" class="hover">Contact</a></li>
+        </ul>
+        <button class="cv">Download Cv</button>
+    </header>
+    <section class="presentation" id="home">
+        <div class="text">
+            <p class="hi">Hello I'm</p>
+            <h1 class="name">Achref Habli</h1>
+            <div class="typing">
+                <span class="first-text">I'm a</span>
+                <ul class="animated-typing">
+                    <li><span class="sec-text">Student</span></li>
+                    <li><span class="sec-text">DevOps Enthusiast</span></li>
+                    <li><span class="sec-text">Junior Developer</span></li>
+                </ul>
+            </div>
+            <p class="description">I'm a passionate web developer and DevOps enthusiast.And i want to turn this passion into a beautifull career.</p>
+            <div class="social-media">
+                <ul class="links">
+                    <li><a href="https://www.facebook.com/profile.php?id=100012236557596" class="fab fa-facebook-f"></a></li>
+                    <li><a href="https://www.linkedin.com/in/achref-habli-16a682252/" class="fab fa-linkedin"></a></li>
+                    <li><a href="https://www.instagram.com/achref_habli/" class="fab fa-instagram"></a></li>
+                    <li><a href="https://github.com/Achref-dot-afk" class="fab fa-github"></a></li>
+                </ul>
+            </div>
+            <button class="about-me">About Me</button>
+        </div>
+        <div class="my-img"><img src="./assets/Untitled_design-removebg-preview.png" alt=""></div>
+    </section>
+    <section class="about-section" id="about">
+        <div class="image-about" data-aos="fade-right"><img src="assets/Untitled design (1).png" alt=""></div>
+        <div class="text-about" id="text-about" data-aos="fade-left">
+            <p class="who">About Me</p>
+            <h2 class="about-h2">Who am I</h2>
+            <p class="about-content">My name is Achref Habli and i'm ICT engineering student in ENIT and my fields of interest are DevOps and web development .I have about 1 year experience in this field .I'm working currently on Mern stack to enhance my skills in web dev and trying to improve my skills in testing and others technologies such as jenkins and docker , taking my time to learn more about DevOps culture . </p>
+            <div class="more-infos">
+                <div class="info-1">
+                    <p class="My-name"><h5>Name</h5>  <br>Achref Habli </p>
+                    <p class="My-email"><h5 class="My-email">Email</h5>  <br>achrefh1bli22@gmail.com </p>
+                </div>
+                <div class="info-2">
+                   <p class="education"><h5>Education</h5> <br>National Engineering school of Tunis.(Still)</p>
+                   <p class="phone"><h5>Phone</h5> <br>+216 42 375 004 </p>
+                </div>
+            </div>
+
+            <button class="contact-me">Contact Me</button>
+        </div>
+    </section>
+    <section class="skills-section" id="skills">
+        <label class="switch">
+            <input type="checkbox" class="chk1">
+            <span class="slider" id="slider"></span>
+        </label>
+        <h3 class="Dev-skills"data-aos="fade-down" id="skills">Dev Skills</h3>
+        <div class="skill"data-aos="fade-right" ><i class="fa-brands fa-html5"></i></div>
+        <div class="skill"data-aos="fade-right" ><i class="fa-brands fa-css3-alt"></i></div>
+        <div class="skill"data-aos="fade-right" ><i class="fa-brands fa-js"></i></div>
+        <div class="skill"data-aos="fade-right" ><i class="fa-brands fa-node-js"></i></div>
+        <div class="skill"data-aos="fade-right"><i class="fas fa-database"></i></div>
+        <h3 class="Ops-skills"data-aos="fade-down" id="skills" style="display: none;">Ops Skills</h3>
+        <div class="skill-ops" style="display: none"><i class="fa-brands fa-jenkins"></i></div>
+        <div class="skill-ops" style="display: none"><i class="fa-brands fa-docker"></i></div>
+        <div class="skill-ops" style="display: none"><i class="fa-brands fa-github"></i></div>
+        <div class="skill-ops" style="display: none"><i class="fa-brands fa-aws"></i></div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="workheader" data-aos="fade-down">
+            <h2>My Work</h2>
+            <h3>Most recent Work</h3>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="project-container" data-aos="fade-left">
+                    <div class="img-project">
+                        <img src="./assets/cat-2083492_640.jpg" alt="">
+                    </div>
+                    <div class="project-data">
+                        <h3>Modern Website</h3>
+                        <p class="project-text">Folks, the video had a copyright claim on the music, that's why I removed it. But insert music from YouTube Library every 5 minutes
+                        </p>
+                        <div class="btns">
+                            <a href="#" class="button-project-git">Code <i class="fa-solid fa-gear"></i></a>
+                            <a href="#" class="button-project">Demo<i class="fa-solid fa-arrow-right" id="arrow"></i></a>
+                        </div>
+                    </div>
+                      
+                </div>
+                <div class="swiper-slide" id="project-container" data-aos="fade-right">
+                    <div class="img-project">
+                        <img src="./assets/cat-2083492_640.jpg" alt="">
+                    </div>
+                    <div class="project-data">
+                        <h3>Modern Website</h3>
+                        <p class="project-text">Folks, the video had a copyright claim on the music, that's why I removed it. But insert music from YouTube Library every 5 minutes
+                        </p>
+                        <div class="btns">
+                            <a href="#" class="button-project-git">Code <i class="fa-solid fa-gear"></i></a>
+                            <a href="#" class="button-project">Demo<i class="fa-solid fa-arrow-right" id="arrow"></i></a>
+                        </div>
+                    </div>      
+                </div>
+                <div class="swiper-slide" id="project-container" data-aos="fade-left">
+                    <div class="img-project">
+                        <img src="./assets/cat-2083492_640.jpg" alt="">
+                    </div>
+                    <div class="project-data">
+                        <h3>Modern Website</h3>
+                        <p class="project-text">Folks, the video had a copyright claim on the music, that's why I removed it. But insert music from YouTube Library every 5 minutes
+                        </p>
+                        <div class="btns">
+                            <a href="#" class="button-project-git">Code <i class="fa-solid fa-gear"></i></a>
+                            <a href="#" class="button-project">Demo <i class="fa-solid fa-arrow-right" id="arrow"></i></a>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        </div>
+        </section>
+    <section class="contact-form" id="contact">
+        <div class="container" data-aos="fade-down">
+            <div class="contact-header">
+                <h2>Contact</h2>
+                <h3 class="get-in">Get in Touch</h3>
+            </div>
+            <div class="wrapper">
+                <div class="container-2"data-aos="fade-left">
+                    <div class="form">
+                        <div class="column1">
+                            <input type="text" class="name-required" placeholder="Enter your name...">
+                            <input type="text" class="subject" placeholder="Enter subject...">
+                        </div>
+                        <div class="column2">
+                            <input type="text" class="email" placeholder="Enter email...">
+                        </div>
+                        <div class="textarea">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter message..."></textarea>
+                        </div>
+                        <button class="send" onclick="send_mail()">Send message</button>
+                    </div>
+                    <div class="info" data-aos="fade-down">
+                        <div class="myinfo">
+                            <i class="fas fa-phone-alt"></i>
+                            <h4>Phone : +216 42 375 004</h4>
+                        </div>
+                        <div class="myinfo">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email : achrefh1bli22@gmail.com</h4>
+                        </div>
+                        <div class="myinfo">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Location : Tunisia</h4>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2 class="follow">For more infos ,Follow me on :</h2>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100012236557596" class="fab fa-facebook-f"></a>
+            <a href="https://www.linkedin.com/in/achref-habli-16a682252/" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/achref_habli/" class="fab fa-instagram"></a>
+            <a href="https://github.com/Achref-dot-afk" class="fab fa-github"></a>
+        </div>
+        <h3 class="copyright">copyright © 2023 Achref Habli all rights reserved</h3>
+    </footer>
+    <div class="scroller"><i class="fa-sharp fa-solid fa-angle-up"></i></div>
+</body>
+<script src="script.js"></script>
+<script>AOS.init();</script>
+</html>
